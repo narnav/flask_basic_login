@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}success{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>success</h1>
+  <p class="important">
+    Welcome mr {{welc_user}}
+{% endblock %}
